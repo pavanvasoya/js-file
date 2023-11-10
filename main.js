@@ -6,3 +6,9 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $(".hamburger").click(function () {
+        $(".hamburger-icon").toggle();
+    });
+});
+
